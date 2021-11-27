@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons button {
+    color: #e2e5e8;
+    background: blueviolet ;
+    width: 200px;
+    height: 70px;
+    font-size: 30px;
+    padding-left: 10px;
+
+}
+.count p {
+    font-size: 50px;
+    font-family: sans-serif;
+    color: #4b83ba;
+    font-weight: bold;
+    text-align: center;
+}

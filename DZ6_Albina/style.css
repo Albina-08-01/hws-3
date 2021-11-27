@@ -1,0 +1,273 @@
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.header {
+    font-family: sans-serif;
+    background: url('./images/maxresdefault.jpg') no-repeat center;
+    color: #206090;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 100vh;
+    background-size: cover;
+    flex: 1;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+.header h1 {
+    font-size: 65px;
+    margin-top: -40px;
+    color: #19179a;
+
+}
+.Anime {
+    position: relative;
+    background: linear-gradient(102deg, #3586be, rgba(26, 66, 102, 0.86));
+    padding: 50px;
+    color: white;
+}
+.img img {
+    width: 450px;
+    height: 350px;
+    margin-left: 450px;
+    border: 2px solid #787373;
+
+}
+.Anime .Killua {
+    display: inline-block;
+    text-align: center;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 60px;
+}
+.Killua .killua img {
+    margin-bottom: 5px;
+    background-size: 100px;
+    width: 400px;
+    border: #fcfcfd solid;
+    margin-top: -300px;
+    margin-left: 40px;
+
+}
+.Killua .killua h3 {
+    margin-top: -330px;
+    margin-bottom: 550px;
+    margin-left: -500px;
+    font-size: 50px;
+    background:  linear-gradient(143deg, #061a62, #00000033);
+    width: 400px;
+}
+.Killua .Yo h3 {
+    margin-top: -400px;
+    margin-bottom: 250px;
+    margin-left: 600px;
+    font-size: 50px;
+        background:  linear-gradient(143deg, #061a62, #00000033);
+    width: 400px;
+
+}
+.Killua .Aki h3 {
+    margin-top: -320px;
+    margin-bottom: 250px;
+    font-size: 50px;
+        background:  linear-gradient(143deg, #061a62, #00000033);
+    width: 400px;
+
+}
+.Killua .Kenma h3 {
+    margin-top: -430px;
+    margin-bottom: 220px;
+    margin-left: 600px;
+    font-size: 50px;
+        background:  linear-gradient(143deg, #061a62, #00000033);
+    width: 400px;
+
+}
+.killua p{
+    font-size: 50px;
+    margin-left: -470px;
+    font-family: serif;
+    color: #ffffff;
+    width: 60%;
+    margin-top: -350px;
+    margin-bottom: 400px;
+    background: linear-gradient(154deg, #020a40, #00000038)
+}
+.Yo p{
+    font-size: 50px;
+    margin-left: 640px;
+    font-family: serif;
+    color: #ffffff;
+    width: 30%;
+    margin-top: -320px;
+    margin-bottom: 500px;
+    background: linear-gradient(154deg, #020a40, #00000038)
+}
+.Aki p{
+    font-size: 50px;
+    margin-left: 50px;
+    font-family: serif;
+    color: #ffffff;
+    width: 30%;
+    margin-top: -320px;
+    margin-bottom: 400px;
+    background: linear-gradient(154deg, #020a40, #00000038)
+}
+.Kenma p{
+    font-size: 50px;
+    margin-left: 650px;
+    font-family: serif;
+    color: #ffffff;
+    width: 30%;
+    margin-top: -320px;
+    margin-bottom: 500px;
+    background: linear-gradient(154deg, #020a40, #00000038)
+}
+
+.Anime .counter {
+    font-size: 45px;
+    margin: 10px 0;
+}
+
+
+.Killua .killua {
+    margin-left: 500px;
+}
+.Killua .Yo img {
+    margin-bottom: 5px;
+    background-size: 100px;
+    width: 350px;
+    border: #fcfcfd solid;
+    margin-top: -280px;
+    margin-left: -450px;
+
+}
+.Killua .Aki img {
+    margin-bottom: 5px;
+
+    background-size: 100px;
+    width: 380px;
+    border: #fcfcfd solid;
+    margin-top: -260px;
+    margin-left: 320px;
+
+}
+.Killua .Kenma img {
+    margin-bottom: 5px;
+    background-size: 100px;
+    width: 350px;
+    border: #fcfcfd solid;
+    margin-top: -280px;
+    margin-left: -450px;
+
+}
+
+.images img {
+    width: 400px;
+    height: 330px;
+    margin-left: 40px;
+    border: 2px solid #787373;
+    margin-right: 600px;
+
+}
+.im img {
+    width: 400px;
+    height: 330px;
+    margin-left: 500px;
+    border: 2px solid #787373;
+
+
+}.mot img {
+     width: 400px;
+    height: 330px;
+    margin-left: 40px;
+    border: 2px solid #787373;
+    margin-right: 600px;
+}
+
+.images{
+    margin-top: 200px;
+}
+.im{
+    margin-top: 200px;
+}
+.mot{
+    margin-top: 200px;
+}
+.killua .counter {
+    font-size: 40px;
+    width: 200px;
+    background: linear-gradient(136deg, #0b0972, #215779);
+    color: #fff;
+    margin-left: 160px;
+    margin-top: -70px;
+}
+
+.Yo .counter {
+    font-size: 40px;
+    width: 200px;
+    background: linear-gradient(136deg, #0b0972, #225b7f);
+    color: #fff;
+    margin-left: 170px;
+    margin-top: -130px;
+}
+.Aki .counter {
+    font-size: 40px;
+    width: 200px;
+    background: linear-gradient(136deg, #0b0972, rgba(37, 100, 141, 0.96));
+    color: #fff;
+    margin-left: 600px;
+    margin-top: -70px;
+}
+.Kenma .counter {
+    font-size: 40px;
+    width: 200px;
+    background: linear-gradient(136deg, #0b0972, #296286);
+    color: #fff;
+    margin-left: 200px;
+    margin-top: -70px;
+}
+.Yo .line {
+    border: 2px solid white;
+    margin-left: -170px;
+    margin-right: -117px;
+    margin-top: 130px;
+    margin-bottom: -50px;
+}
+.killua .line {
+    border: 2px solid white;
+    margin-left: -670px;
+    margin-right: -118px;
+    margin-top: 130px;
+    margin-bottom: -50px;
+}
+.Aki .line {
+    border: 2px solid white;
+    margin-left: -170px;
+    margin-right: -117px;
+    margin-top: 130px;
+    margin-bottom: -50px;
+}
+
+.buttons button {
+    color: #e2e5e8;
+    background: linear-gradient(136deg, #0b0972, #296286);)
+    width: 200px;
+    height: 60px;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.killua .count p{
+    margin-left: 120px;
+    margin-bottom: -10px;
+}
+.buttons{
+    margin-top: -2605px;
+    margin-bottom: 2900px;
+    margin-left: 40px;
+}
+
+
