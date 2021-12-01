@@ -1,8 +1,8 @@
 class Transport{
     constructor(name, color, type) {
-        this.name = name
-        this.color = color
-        this.type = type
+        this.name = name;
+        this.color = color;
+        this.type = type;
     }
 
     startEngine(){
@@ -10,19 +10,21 @@ class Transport{
     }
 }
 
-class Car extends Transport{
+class Car extends Transport {
     constructor(name, color, type, battery, brake, wheel, steering, transmission) {
-        super(name, color, type);
-        this.battery = battery
-        this.brake = brake
-        this.wheel = wheel
-        this.steering = steering
-        this.transmission = transmission
+        super(name, color, type, battery, brake, wheel, steering, transmission);
+        this.battery = battery;
+        this.brake = brake;
+        this.wheel = wheel;
+        this.steering = steering;
+        this.transmission = transmission;
     }
+
     startEngine() {
         console.log("Engine is start")
     }
 }
+
 
 class BMW extends Car{
     constructor(name, color, type, battery, brake, wheel, steering, transmission) {
@@ -48,3 +50,7 @@ class Airplane extends Transport{
 
 const airplane = new Airplane("airplane", "голубой", "airplane", 37, "7 metres", "T-shaped")
 console.log(airplane)
+
+
+
+
